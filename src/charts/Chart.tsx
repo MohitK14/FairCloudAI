@@ -1,6 +1,5 @@
-import { Pie } from 'react-chartjs-2';
+import { Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
-import React from 'react';
 
 const Chart= ()=>{
 
@@ -18,7 +17,7 @@ const Chart= ()=>{
 
     return (
         <>
-            <Pie data={data} />
+            <Doughnut data={data} />
         </>
     )
 }
